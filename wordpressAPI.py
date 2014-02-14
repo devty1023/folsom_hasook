@@ -58,8 +58,8 @@ class Wordpy():
 
 
 if __name__ == '__main__':
-    wordpy = Wordpy(conf.FOLSOM_TOKEN)
+    wordpy = Wordpy(conf.WP_FOLSOM_TOKEN)
     print wordpy.users()
-    print conf.FOLSOM_ID
+    print conf.WP_FOLSOM_ID
     print wordpy.create_post(title='myPost', categories='식사', content='2월1일 저녘', img='./img/doge.jpg')
 
